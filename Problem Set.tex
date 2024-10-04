@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage{lecture_notes}
+\hypersetup{
+  colorlinks = true,
+  allcolors = purple,
+  breaklinks = true,
+  bookmarksopen = true
+}
+
+\fancyhf{}
+\lhead{\fontfamily{qbk}\fontsize{10}{11}\selectfont CU Denver Math Camp}
+\rhead{\fontfamily{qbk}\fontsize{10}{11}\selectfont Problem Set - Matrix Algebra}
+\rfoot{\fontfamily{qbk}\fontsize{10}{11}\selectfont \thepage}
+
+
+
+\begin{document}
+\begin{center}
+  {\Huge\bf Problem Set - Matrix Algebra}
+  
+  \smallskip
+  {\large\it CU Denver Math Camp}
+\end{center}
+
+
+\begin{enumerate}
+  \item Let 
+  $$
+    A = \begin{bmatrix} 6 & 7 & 9 \\ 1 & 2 & 3 \\ 8 & 4 & 6 \end{bmatrix}, 
+    \quad 
+    B = \begin{bmatrix} 10 & 9 & 8 \\ 7 & 5 & 4 \\ 1 & 7 & 6 \end{bmatrix},
+    \quad \text{ and } 
+    C = \begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 0 \\ 4 & 0 & 2 \end{bmatrix}
+  $$ 
+  calculate the following:
+  
+  \begin{enumerate}
+    \item $3B^T + A$
+    \item $C^T - 4A$
+    \item $(CA)^T$
+  \end{enumerate}
+  
+  \bigskip
+  \item What is the column rank of each of the following matrices (show your work):
+  
+  \begin{enumerate}
+    \item $$ \begin{bmatrix} 6 & 7 & 9 \\ 1 & 2 & 3 \\ 8 & 4 & 6 \end{bmatrix} $$
+    
+    \item $$ \begin{bmatrix} 2 & 4 & 8 \\ 1 & 2 & 3 \\ 2 & 4 & 7 \end{bmatrix} $$
+    
+    \item $$ \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & -1 \\ -2 & -4 & 4 \end{bmatrix} $$
+  \end{enumerate}
+  
+  
+  
+  \bigskip
+  \item Match each matrix with its inverse:
+  
+  $$
+    A = \begin{bmatrix} 1 & 2 & -1 \\ -2 & 0 & 1 \\ 1 & -1 & 0 \end{bmatrix}, 
+    \quad 
+    B = \begin{bmatrix} 2 & 4 & 1 \\ -1 & 1 & -1 \\ 1 & 4 & 0 \end{bmatrix}, 
+    \quad \text{ and } 
+    C = \begin{bmatrix}  1 & 2 & 3 \\ 2 & 4 & 0 \\ 0 & 0 & 3 \end{bmatrix}
+  $$
+  
+  $$
+    a = \begin{bmatrix} -4 & -4 & 5 \\ 1 & 1 & -1 \\ 5 & 4 & -6 \end{bmatrix}, 
+    \quad 
+    b = \begin{bmatrix} 1 & 1 & 2 \\ 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}, 
+    \quad \text{ and } 
+    c = \text{ Not invertible}.
+  $$
+  
+  \bigskip
+  \item Convert the following systems of equations to matrices and solve: 
+  
+  \begin{enumerate}
+    \item $$x_1 + 6x_2 = 4$$ $$3 x_1 - 2x_2 = 2$$
+      
+    \item $$2x - 5y = 15$$ $$3x + y = 31$$ 
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}
